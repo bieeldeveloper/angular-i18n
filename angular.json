@@ -56,6 +56,27 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "es": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error"
+            },
+            "en": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
+            "hi": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.hi.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "hi",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -67,6 +88,15 @@
           "configurations": {
             "production": {
               "browserTarget": "angularI18n:build:production"
+            },
+            "es": {
+              "browserTarget": "angularI18n:build:es"
+            },
+            "en": {
+              "browserTarget": "angularI18n:build:en"
+            },
+            "hi": {
+              "browserTarget": "angularI18n:build:hi"
             }
           }
         },
